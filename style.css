@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #14213d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.choices{
+    display: flex;
+    height: 40vmin;
+    width: 75vmin;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.btn{
+    border-radius: 50%;
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+}
+.btn:hover{
+    border: 2px solid;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#rock{
+    background-image: url("rock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#paper{
+    background-image: url("paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#scissor{
+    background-image: url("scissor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scorecard{
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.score{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    height: 40px;
+    background-color: #14213d;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
